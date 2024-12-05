@@ -4,7 +4,7 @@ import PokemonList from "pokemonList/PokemonList";
 
 import "./App.css";
 
-function App() {
+const App: React.FC = () => {
   const [pokemon] = usePokemonSelected();
 
   return (
@@ -26,6 +26,6 @@ function App() {
       )}
     </>
   );
-}
+};
 
 export default App;
